@@ -14,7 +14,7 @@ public class starReader : MonoBehaviour
     {
         InitializeStarPrefabs();
         StartCoroutine(LoadCSVFile());
-        // Example of drawing lines
+        // Sculptor constellation consisting of three stars
         DrawLineBetweenStars(4577, 115102);
         DrawLineBetweenStars(115102, 116231);
     }
